@@ -1,11 +1,11 @@
-import { Post } from './component/post'
+import { MainApp } from './component/main'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Post/>
-    </div>
+    <>
+      <MainApp/>
+    </>
   );
 }
 
